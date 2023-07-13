@@ -1,22 +1,14 @@
 # console-database-of-employees
-Task 1
-Create the personnel of the firm.
+### Task 1
+
+    Create the personnel of the firm.
 
 In a firm, all employees are categorized into the following types:
-1)	Employee:
-    FULL NAME,
-    Date of birth,
-    Date of employment.
-2)	Manager:
-  	NAME,
-  	Date of birth,
-  	Date of employment,
-  	List of employees reporting to this manager.
-3)	Others (management, secretaries, etc.):
-  	FULL NAME,
-  	Date of birth,
-  	Date of employment,
-  	Text description of the employee.
+1)	__Employee__: full name, date of birth, date of employment.
+2)  __Manager__: full name, date of birth, date of employment, list of subordinates (other employees)
+3)	__Others (management, secretaries, etc.)__: full name, date of birth, date of employment, text description of the employee
+
+---
 
 Task 2
 Create a list of employees and mechanisms to work with them.
