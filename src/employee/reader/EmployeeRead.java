@@ -15,15 +15,13 @@ public class EmployeeRead {
         this.employeeList = employeeList;
     }
 
-    public EmployeeList employeeDataRead() {
+    public void employeeDataRead() {
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(employeeList.filePath))) {
             ArrayList<Employee> readList = (ArrayList<Employee>) ois.readObject();
             employeeList.addAll(readList);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
-
-        return employeeList;
     }
 
 }
