@@ -20,10 +20,13 @@ The list of employees should:
 
 ---
 
-Task 3
-Reading and writing the list to a file
+### Task 3
+
+    Reading and writing the list to a file.
+
 When the application starts, it should prompt for a file with existing records or an empty file. Each action is followed by saving the data to a file.
 
-Implementation requirements
-  	The program must be console-based.
-  	Read/write file format - ".dat".
+---
+
+### Implementation requirements
+- The program must be console-based.
