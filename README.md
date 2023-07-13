@@ -10,10 +10,15 @@ In a firm, all employees are categorized into the following types:
 
 ---
 
-Task 2
-Create a list of employees and mechanisms to work with them.
+### Task 2
+    Create a list of employees and an interface to work with them.
 
-The list of employees should allow adding, deleting, linking an employee to a manager, sorting the list by last name, hire date.
+The list of employees should:
+1) Allow adding, deleting employees
+2) Linking an employee to a manager
+3) Sorting the list by last name, hire date
+
+---
 
 Task 3
 Reading and writing the list to a file
