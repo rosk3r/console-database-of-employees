@@ -1,12 +1,13 @@
 # console-database-of-employees
+
 ### Task 1
 
     Create the personnel of the firm.
 
 In a firm, all employees are categorized into the following types:
-1)	__Employee__: full name, date of birth, date of employment.
-2)  __Manager__: full name, date of birth, date of employment, list of subordinates (other employees)
-3)	__Others (management, secretaries, etc.)__: full name, date of birth, date of employment, text description of the employee
+- __Employee__: full name, date of birth, date of employment.
+- __Manager__: full name, date of birth, date of employment, list of subordinates (other employees).
+- __Others (management, secretaries, etc.)__: full name, date of birth, date of employment, text description of the employee.
 
 ---
 
@@ -14,9 +15,9 @@ In a firm, all employees are categorized into the following types:
     Create a list of employees and an interface to work with them.
 
 The list of employees should:
-1) Allow adding, deleting employees
-2) Linking an employee to a manager
-3) Sorting the list by last name, hire date
+- Allow adding, deleting employees.
+- Linking an employee to a manager.
+- Sorting the list by last name, hire date.
 
 ---
 
@@ -29,4 +30,5 @@ When the application starts, it should prompt for a file with existing records o
 ---
 
 ### Implementation requirements
+
 - The program must be console-based.
